@@ -12,6 +12,7 @@ Source0:	http://github.com/coderanger/trac-mastertickets/zipball/master
 # Source0-md5:	b32a2dac51488e6fd68bbcf49e384a72
 URL:		http://trac-hacks.org/wiki/MasterTicketsPlugin
 BuildRequires:	python-devel
+BuildRequires:	unzip
 Requires:	trac >= %{trac_ver}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
